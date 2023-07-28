@@ -3,7 +3,6 @@ import os
 import json
 import argparse
 import subprocess
-os.getenv("HOME")
 
 CONFIG_FILE_PATH = os.getenv('GIT_CONFIG_FILE_PATH', os.path.join(os.getenv("HOME"), '.config/git_config.json'))
 
